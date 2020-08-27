@@ -1,0 +1,182 @@
+/* includes alternating gray and white with on-hover color */
+
+
+
+
+.kopazar {
+	
+    font-size: 11pt; 
+    font-family: Arial;
+
+    
+}
+
+.kopazar td, th {
+    padding: 5px;
+margin-right: 50px;
+}
+
+.kopazar tr:nth-child(even) {
+    background: #E0E0E0;
+}
+
+.kopazar tr:hover {
+    background: yellow;
+    cursor: pointer;
+}
+.kopazar{
+   border-radius: 1px;
+   border: 2px solid;
+   border-color: purple;
+   min-height: 100px;
+   padding: 20px;
+   position: relative;
+   width: 25%;
+   z-index: 1;
+   margin-right:10px; 
+   margin-bottom:10px;
+   float: left;
+   
+}
+
+.yyg {
+	
+    font-size: 11pt; 
+    font-family: Arial;
+    
+}
+
+.yyg td, th {
+    padding: 5px;
+}
+
+.yyg tr:nth-child(even) {
+    background: #E0E0E0;
+}
+
+.yyg tr:hover {
+    background: green;
+    cursor: pointer;
+}
+.yyg{
+	border-radius: 1px;
+   border: 2px solid;
+   border-color:green;
+    min-height: 100px;
+   padding: 20px;
+   position: relative;
+   width: 25%;
+   z-index: 1;
+   margin-right:10px; 
+   margin-bottom:10px;
+   float: left;
+   
+   }
+
+.oyunfor {
+	
+    font-size: 11pt; 
+    font-family: Arial;
+	
+
+}
+
+.oyunfor td, th {
+    padding: 5px;
+}
+
+.oyunfor tr:nth-child(even) {
+    background: #E0E0E0;
+}
+
+.oyunfor tr:hover {
+    background: cyan;
+    cursor: pointer;
+}
+.oyunfor{
+  border-radius: 1px;
+   border: 2px solid;
+   border-color:blue;
+   min-height: 100px;
+   padding: 20px;
+   position: relative;
+   width: 25%;
+   z-index: 1;
+   margin-right:10px; 
+   margin-bottom:10px;
+   float: left;
+   
+}
+
+
+
+
+.klasgame{
+		
+    font-size: 11pt; 
+    font-family: Arial;
+    
+
+}
+
+.klasgame td, th {
+    padding: 5px;
+}
+
+.klasgame tr:nth-child(even) {
+    background: #E0E0E0;
+}
+
+.klasgame tr:hover {
+    background: #ff99ff;
+    cursor: pointer;
+}
+.klasgame{
+	
+   border-radius: 1px;
+   border: 2px solid;
+   border-color:red;
+   min-height: 100px;
+   padding: 20px;
+   position: relative;
+   width: 25%;
+   margin-right:10px; 
+   margin-bottom:10px;
+   float: left;
+   
+   
+}
+
+.mystyle {
+    font-size: 11pt; 
+    font-family: Arial;
+	
+
+}
+
+.mystyle td, th {
+    padding: 5px;
+}
+
+.mystyle tr:nth-child(even) {
+    background: #E0E0E0;
+}
+
+.mystyle tr:hover {
+    background: orange;
+    cursor: pointer;
+}
+.mystyle{
+  border-radius: 1px;
+   border: 2px solid;
+   border-color:orange;
+   min-height: 100px;
+   padding: 20px;
+   width: 25%;
+   z-index: 1;
+   margin-right:10px; 
+   margin-bottom:10px;
+   float: left;
+   
+   
+}
