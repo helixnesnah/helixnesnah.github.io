@@ -1,182 +1,51 @@
-/* includes alternating gray and white with on-hover color */
+
+body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	background: linear-gradient(45deg, #49a09d, #5f2c82);
+	font-family: sans-serif;
+	font-weight: 100;
+}
 
 
-
-
-.kopazar {
+table {
+	width: 20px;
+	border-collapse: collapse;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+	margin-right:20px; 
+	margin-bottom:20px;
+	float: left;
 	
-    font-size: 11pt; 
-    font-family: Arial;
-
-    
 }
 
-.kopazar td, th {
-    padding: 5px;
-margin-right: 50px;
+th,
+td {
+	padding: 15px;
+	background-color: rgba(255,255,255,0.2);
+	color: #fff;
 }
 
-.kopazar tr:nth-child(even) {
-    background: #E0E0E0;
+th {
+	text-align: left;
 }
 
-.kopazar tr:hover {
-    background: yellow;
+thead {
+	th {
+		background-color: #55608f;
+	}
+}
+
+tr:hover {
+    background: rgba(255,255,255,0.3);
     cursor: pointer;
 }
-.kopazar{
-   border-radius: 1px;
-   border: 2px solid;
-   border-color: purple;
-   min-height: 100px;
-   padding: 20px;
-   position: relative;
-   width: 25%;
-   z-index: 1;
-   margin-right:10px; 
-   margin-bottom:10px;
-   float: left;
-   
+
+td:hover{
+	background-color: rgba(255,255,255,0.2);
+	cursor:pointer;
 }
 
-.yyg {
-	
-    font-size: 11pt; 
-    font-family: Arial;
-    
-}
-
-.yyg td, th {
-    padding: 5px;
-}
-
-.yyg tr:nth-child(even) {
-    background: #E0E0E0;
-}
-
-.yyg tr:hover {
-    background: green;
-    cursor: pointer;
-}
-.yyg{
-	border-radius: 1px;
-   border: 2px solid;
-   border-color:green;
-    min-height: 100px;
-   padding: 20px;
-   position: relative;
-   width: 25%;
-   z-index: 1;
-   margin-right:10px; 
-   margin-bottom:10px;
-   float: left;
-   
-   }
-
-.oyunfor {
-	
-    font-size: 11pt; 
-    font-family: Arial;
-	
-
-}
-
-.oyunfor td, th {
-    padding: 5px;
-}
-
-.oyunfor tr:nth-child(even) {
-    background: #E0E0E0;
-}
-
-.oyunfor tr:hover {
-    background: cyan;
-    cursor: pointer;
-}
-.oyunfor{
-  border-radius: 1px;
-   border: 2px solid;
-   border-color:blue;
-   min-height: 100px;
-   padding: 20px;
-   position: relative;
-   width: 25%;
-   z-index: 1;
-   margin-right:10px; 
-   margin-bottom:10px;
-   float: left;
-   
-}
-
-
-
-
-.klasgame{
-		
-    font-size: 11pt; 
-    font-family: Arial;
-    
-
-}
-
-.klasgame td, th {
-    padding: 5px;
-}
-
-.klasgame tr:nth-child(even) {
-    background: #E0E0E0;
-}
-
-.klasgame tr:hover {
-    background: #ff99ff;
-    cursor: pointer;
-}
-.klasgame{
-	
-   border-radius: 1px;
-   border: 2px solid;
-   border-color:red;
-   min-height: 100px;
-   padding: 20px;
-   position: relative;
-   width: 25%;
-   margin-right:10px; 
-   margin-bottom:10px;
-   float: left;
-   
-   
-}
-
-.mystyle {
-    font-size: 11pt; 
-    font-family: Arial;
-	
-
-}
-
-.mystyle td, th {
-    padding: 5px;
-}
-
-.mystyle tr:nth-child(even) {
-    background: #E0E0E0;
-}
-
-.mystyle tr:hover {
-    background: orange;
-    cursor: pointer;
-}
-.mystyle{
-  border-radius: 1px;
-   border: 2px solid;
-   border-color:orange;
-   min-height: 100px;
-   padding: 20px;
-   width: 25%;
-   z-index: 1;
-   margin-right:10px; 
-   margin-bottom:10px;
-   float: left;
-   
-   
-}
